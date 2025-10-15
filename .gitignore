@@ -1,0 +1,41 @@
+# Build artifacts
+*.o
+*.a
+*.so
+*.out
+gammad
+
+# Debug symbols
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Clangd cache
+.cache/
+.clangd/
+
+# Compilation database
+compile_commands.json
+
+# Core dumps
+core
+vgcore.*
+core.*
+
+# Backup files
+*.bak
+*.backup
+*.orig
+
+# Temporary files
+*.tmp
+*.temp

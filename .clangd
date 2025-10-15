@@ -1,0 +1,4 @@
+CompileFlags:
+  Add:
+    - -I/usr/include/libdrm
+    - -D_GNU_SOURCE
