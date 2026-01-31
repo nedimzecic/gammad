@@ -1,6 +1,6 @@
 CC = gcc
 CFLAGS = -Wall -Wextra -O2 -I/usr/include/libdrm
-LDFLAGS = -ldrm
+LDFLAGS = -ldrm -lm
 TARGET = gammad
 SRCS = main.c
 OBJS = $(SRCS:.c=.o)
