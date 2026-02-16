@@ -27,10 +27,11 @@ gammad <card_name> <temperature>
 - `card_name`: Name of the DRM card (e.g., card0, card1)
 - `temperature`: Color temperature in Kelvin (1000-10000)
 
-- 6500 (K) = neutral white (daylight)
-- 5000 (K) = slightly warm
-- 3000 (K) = warm (evening)
-- 2000 (K) = very warm (night shift)
+### Temperature
+- `6500`K = neutral white (daylight)
+- `5000`K = slightly warm
+- `3000`K = warm (evening)
+- `2000`K = very warm (night shift)
 
 ### Example
 ```bash
